@@ -2,7 +2,7 @@ import Vue from 'vue';
 
 import Layout from './components/Layout';
 
-import './styles/main.scss';
+import './styles/global.scss';
 
 new Vue({
   el: '#app',

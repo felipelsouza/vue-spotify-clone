@@ -1,8 +1,18 @@
 <template>
-  <div id="grid"></div>
+  <div id="grid">
+      <OptionsList />
+  </div>
 </template>
 
-<script></script>
+<script>
+import OptionsList from './OptionsList'
+
+export default {
+    components: {
+        OptionsList
+    }
+}
+</script>
 
 <style scoped>
 #grid {

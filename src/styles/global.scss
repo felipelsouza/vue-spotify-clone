@@ -15,13 +15,13 @@ html, body, #app {
 }
 
 :root {
-    --sidebar: #000000;
-    --background: #121212;
-    --card: #121212;
-    --active-dark: #282828;
-
-    --primary-font: #FFFFFF;
-    --secondary-font: #B3B3B3;
-
     --spotify: #1DB954;
+
+    --primary-dark: #000000;
+    --secondary-dark: #121212;
+    --tertiary-dark: #181818;
+    --quaternary-dark: #282828;
+
+    --primary-light: #FFFFFF;
+    --secondary-light: #B3B3B3;
 }
