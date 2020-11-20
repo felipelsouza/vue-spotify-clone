@@ -34,12 +34,12 @@ export default {
   flex-direction: row;
   flex-shrink: 0;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 38px;
   margin-bottom: 14px;
   font-weight: 700;
-  background-color: transparent;
   color: var(--secondary-light);
   font-size: 12px;
+  background-color: transparent;
   transition: 0.2s;
   cursor: pointer;
 

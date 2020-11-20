@@ -2,17 +2,20 @@
   <div id="grid">
       <OptionsList />
       <AlbumCover cover="https://images-na.ssl-images-amazon.com/images/I/71PgZkUb-eL._AC_SX679_.jpg" />
+      <MusicPlayer musicName="Flying Whales" artist="Gojira" />
   </div>
 </template>
 
 <script>
 import OptionsList from './OptionsList';
 import AlbumCover from './AlbumCover';
+import MusicPlayer from './MusicPlayer';
 
 export default {
     components: {
         OptionsList,
-        AlbumCover
+        AlbumCover,
+        MusicPlayer
     }
 }
 </script>
@@ -23,7 +26,7 @@ export default {
     height: 100vh;
 
     grid-template-columns: 232px auto;
-    grid-template-rows: 360px auto 115px;
+    grid-template-rows: 340px auto 110px;
 
     /*  OL = Options list
         HP = Home Page
