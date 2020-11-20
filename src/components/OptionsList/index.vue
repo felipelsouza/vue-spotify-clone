@@ -36,7 +36,7 @@ export default {
   align-self: center;
   width: 180px;
   height: 1px;
-  margin-top: 4px;
+  margin-top: 14px;
   background: var(--quaternary-dark);
 }
 

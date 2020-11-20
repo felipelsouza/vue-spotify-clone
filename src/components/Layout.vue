@@ -1,15 +1,18 @@
 <template>
   <div id="grid">
       <OptionsList />
+      <AlbumCover cover="https://images-na.ssl-images-amazon.com/images/I/71PgZkUb-eL._AC_SX679_.jpg" />
   </div>
 </template>
 
 <script>
-import OptionsList from './OptionsList'
+import OptionsList from './OptionsList';
+import AlbumCover from './AlbumCover';
 
 export default {
     components: {
-        OptionsList
+        OptionsList,
+        AlbumCover
     }
 }
 </script>
@@ -19,17 +22,17 @@ export default {
     display: grid;
     height: 100vh;
 
-    grid-template-columns: 230px auto;
-    grid-template-rows: 350px auto 115px;
+    grid-template-columns: 232px auto;
+    grid-template-rows: 360px auto 115px;
 
     /*  OL = Options list
         HP = Home Page
-        PL = PlayLists
+        AC = Album Cover
         MP = Music Player
     */
     grid-template-areas: 
         "OL HP"
-        "PL HP"
+        "AC HP"
         "MP MP" 
     ;
 }
