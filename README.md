@@ -2,17 +2,4 @@
 
 > A Spotify Web Player interface clone made with VueJS
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+![image](https://user-images.githubusercontent.com/55006796/99881412-8351ec00-2bf8-11eb-9e31-e6e556d0c5e0.png)
