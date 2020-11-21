@@ -3,6 +3,7 @@
       <OptionsList />
       <AlbumCover cover="https://images-na.ssl-images-amazon.com/images/I/71PgZkUb-eL._AC_SX679_.jpg" />
       <MusicPlayer musicName="Flying Whales" artist="Gojira" />
+      <HomePage />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import OptionsList from './OptionsList';
 import AlbumCover from './AlbumCover';
 import MusicPlayer from './MusicPlayer';
+import HomePage from './HomePage';
 
 export default {
     components: {
         OptionsList,
         AlbumCover,
-        MusicPlayer
+        MusicPlayer,
+        HomePage
     }
 }
 </script>
